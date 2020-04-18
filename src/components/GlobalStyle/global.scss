@@ -1,0 +1,51 @@
+@import "./theme.scss";
+@import "./normalize.scss";
+
+.nowrap {
+  white-space: nowrap;
+}
+.invisible {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style-type: none;
+}
+body {
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  background-color: #fff;
+}
+a{
+  color: inherit;
+}
+button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li,figure, button{
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  line-height: 1.2;
+}
+p{
+  line-height: 1.6;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: $selection-text-color;
+  background: $selection-background-color;
+}
+
+::selection {
+  color: $selection-text-color;
+  background: $selection-background-color;
+}

@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "ShareTechMono";
+  src: url("/fonts/ShareTechMono-Regular.woff2") format("woff2"),
+    url("/fonts/ShareTechMono-Regular.woff") format("woff"),
+    url("/fonts/ShareTechMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gudea";
+  src: url("/fonts/gudea-bold-webfont.woff2") format("woff2"),
+    url("/fonts/gudea-bold-webfont.woff") format("woff"),
+    url("/fonts/gudea-bold-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+$base-font-family: -apple-system, BlinkMacSystemFont, San Francisco,
+  Roboto, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+$base-font-size: 16px;
+$base-font-weight: 400;
+
+$heading-font-family: 'Gudea';
+$heading-font-weight: 700;
+$heading-font-size: 18px;
+
+$mono-font-family: "ShareTechMono";
+$mono-font-weight: 400;
+
+
+$selection-background-color: #000;
+$selection-text-color: #fff;
+
+.h{
+  font-family: $heading-font-family;
+}
+.h1,.h2,.h3,.h4{
+  font-family: $heading-font-family;
+}
+.h1{
+  font-size: 3em;
+}
+.h2{
+  font-size: 2em;
+}
+.h3{
+  font-size: 1.5em;
+}
+.h4{
+  font-size: 1.25em;
+}
+.p{
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  line-height: 1.8;
+}
+.mono{
+  font-family: $mono-font-family;
+}
